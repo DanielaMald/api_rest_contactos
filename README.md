@@ -11,7 +11,7 @@ Realizar un ejemplo de diseño de una API REST de tipo CRUD y su posterior codif
 Para este ejemplo se utilizara el gestor de base de datos [SQLite3]( https://sqlite.org/) con las siguientes tablas :
 
 3.1 Tabla :contactos
-
+|||||
 
 3.2 
 CREATE TABLE IF NOT EXISTS contactos ( id_contacto INTEGER PRIMARY KEY, nombre VARCHAR(100) NOT NULL, primer_apellido VARCHAR(50) NOT NULL, segundo_apellido VARCHAR(50) NOT NULL, email VARCHAR(100) NOT NULL, telefono VARCHAR(13) NOT NULL );
