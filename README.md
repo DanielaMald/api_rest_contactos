@@ -8,7 +8,7 @@ Ejemplo de una API REST para  gestionar contactos en una DB utilizando FastAPI
 Realizar un ejemplo de diseño de una API REST de tipo CRUD y su posterior codificacion utilizando el framework [FastAPI]( https://fastapi.tiangolo.com/)
 
 ## 3. Diseño de la BD
-Para este ejemplo se utilizara el gestor de base de datos [SQLite3] (https://sqlite.org) con las siguientestablas :
+Para este ejemplo se utilizara el gestor de base de datos [SQLite3]( https://sqlite.org/) con las siguientes tablas :
 
 3.1 Tabla :contactos
 
