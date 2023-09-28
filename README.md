@@ -13,19 +13,22 @@ Para este ejemplo se utilizara el gestor de base de datos [SQLite3]( https://sql
 3.1 Tabla :contactos
 |||||
 
-3.2 
+3.2 Script
 CREATE TABLE IF NOT EXISTS contactos ( id_contacto INTEGER PRIMARY KEY, nombre VARCHAR(100) NOT NULL, primer_apellido VARCHAR(50) NOT NULL, segundo_apellido VARCHAR(50) NOT NULL, email VARCHAR(100) NOT NULL, telefono VARCHAR(13) NOT NULL );
 
-## 4. Diseño del end para el recurso contactos
+## 4. Diseño del Endpoint
+
+Diseño del end para el recurso contactos
 
 4.1 Mostrar todos los contactos
-Endpoint para obtener todos los contactos
 
-No.	Propiedad	Detalle
-1	Description	Endpoint para obtener todos los contactos
-2	Summary	Endpoint todos los contactos
-3	Method	GET
-4	Endpoint	http://localhost:8000/contactos
+Endpoint para obtener todos los contactos
+| | | | 
+|No.	|Propiedad	|Detalle|
+!1|	Description	|Endpoint para obtener todos los contactos|
+|2	|Summary	|Endpoint todos los contactos|
+|3|	Method	GET|
+|4	|Endpoint	|http://localhost:8000/contactos|
 5	Query Params	?limit=10&offset=10
 6	Path Param	NA
 7	Data	NA
